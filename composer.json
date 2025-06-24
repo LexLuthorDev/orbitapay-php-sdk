@@ -7,6 +7,12 @@
       "Orbitapay\\": "src/"
     }
   },
+  "authors": [
+    {
+      "name": "Lex Luthor",
+      "email": "lexluthordevfull@gmail.com"
+    }
+  ],
   "require": {
     "php": "^7.4 || ^8.0",
     "guzzlehttp/guzzle": "^7.0"
