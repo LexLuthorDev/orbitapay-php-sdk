@@ -12,6 +12,6 @@
   },
   "license": "MIT",
   "keywords": ["pix", "gateway", "orbitapay", "pagamento", "php-sdk"],
-  "homepage": "https://github.com/lexluthordev/orbitapay-php-sdk",
+  "homepage": "https://github.com/LexLuthorDev/orbitapay-php-sdk",
   "minimum-stability": "stable"
 }
