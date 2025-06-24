@@ -11,5 +11,7 @@
     "guzzlehttp/guzzle": "^7.0"
   },
   "license": "MIT",
+  "keywords": ["pix", "gateway", "orbitapay", "pagamento", "php-sdk"],
+  "homepage": "https://github.com/lexluthordev/orbitapay-php-sdk",
   "minimum-stability": "stable"
 }
