@@ -1,0 +1,15 @@
+{
+  "name": "lexluthordev/orbitapay-php-sdk",
+  "description": "SDK PHP para integração com a Orbitapay",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Orbitapay\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "license": "MIT",
+  "minimum-stability": "stable"
+}
