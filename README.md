@@ -38,3 +38,5 @@ $response = $service->createPixTransaction([
     'metadata' => 'Pedido #123'
 ]);
 ```
+
+
