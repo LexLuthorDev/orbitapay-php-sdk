@@ -52,25 +52,4 @@ class OrbitapayClient
             throw new \Exception("Erro ao obter saldo disponível (HTTP $status): " . $body, $status);
         }
     }
-
-    /**
-     * Criar uma transferência via PIX
-     *
-     * @param array $data
-     * @return array
-     * @throws \Exception
-     */
-    public function createTransfer(array $data): array
-    {
-        try {
-            $response = $this->client->post('transfers', [
-                'json' => $data
-            ]);
-            return json_decode($response->getBody(), true);
-        } catch (RequestException $e) {
-            $status = $e->getResponse() ? $e->getResponse()->getStatusCode() : 500;
-            $body = $e->getResponse() ? $e->getResponse()->getBody()->getContents() : $e->getMessage();
-            throw new \Exception("Erro ao criar transferência (HTTP $status): " . $body, $status);
-        }
-    }
 }
